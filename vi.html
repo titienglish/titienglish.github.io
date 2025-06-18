@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from titienglish.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Jun 2025 02:08:39 GMT -->
+<!-- Mirrored from titienglish.com/vi by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Jun 2025 02:10:27 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 
@@ -38,7 +38,18 @@
 
 <style>
 </style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var languageText = document.getElementById("language-text");
+        var currentUrl = window.location.href;
 
+        if (currentUrl.includes("/vi")) {
+            languageText.textContent = "Tiếng Việt";
+        } else {
+            languageText.textContent = "English";
+        }
+    });
+</script>
 <!-- Sub Header -->
 <!-- ***** Header Area Start ***** -->
 <header class="header-area header-sticky" style="top:0px;">
@@ -613,5 +624,5 @@
 
 
 
-<!-- Mirrored from titienglish.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Jun 2025 02:09:05 GMT -->
+<!-- Mirrored from titienglish.com/vi by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Jun 2025 02:10:27 GMT -->
 </html>

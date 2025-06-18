@@ -1,0 +1,232 @@
+.meeting-item .down-content2 {
+    background-color: #fff;
+    padding: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+    .meeting-item .down-content2 h4 {
+        font-size: 18px;
+        color: #1f272b;
+        font-weight: 600;
+        display: inline-block;
+        margin-bottom: 0px;
+    }
+
+.meeting-item .down-content3 {
+    background-color: #fff;
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    bottom: -85px;
+}
+
+.meeting-item .down-content p {
+    margin-left: 0px;
+    color: #1f272b;
+    font-size: 14px;
+}
+
+.trinhdo {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.icon_new {
+    max-width: 60px;
+    margin: 0 auto;
+}
+
+section.contact-us .right-info ul li {
+    display: inline-block;
+    border-bottom: 1px solid rgba(250, 250, 250, 0.15);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    /* padding-bottom: 30px; */
+}
+
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-placeholder {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.main-iframe {
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.play-button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 68px;
+    height: 48px;
+    margin-left: -34px;
+    margin-top: -24px;
+}
+
+
+.mylogo {
+    width: 80px
+}
+
+.cap {
+    margin-top: 0px;
+ 
+}
+    .cap p {
+        color: #fff;
+        font-size: 14px;
+        max-width: 570px;
+        line-height: 25px;
+    }
+
+
+    .cap h6 {
+        margin-top: 0px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+
+@media screen and (max-width: 767px) {
+    .cap h6 {
+        font-weight: 500;
+    }
+}
+
+
+
+.cap h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 767px) {
+    .cap h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 992px) {
+    .cap h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .mylogo {
+        width: 45px
+    }
+}
+
+@media (max-width: 992px) {
+    section.apply-now2 {
+        padding: 50px 0px;
+    }
+
+    section.apply-now {
+        padding: 50px 0px;
+    }
+
+    section.upcoming-meetings {
+        padding-bottom: 0px;
+    }
+    .meeting-item .down-content {
+       
+        border-bottom-right-radius: 0px;
+         border-bottom-left-radius: 0px; 
+    }
+    .meeting-item {
+         margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-iframe {
+        height: 192px;
+        border: 2px solid #6B8CE9;
+        border-radius: 8.22px;
+        margin-bottom: 40px;
+        margin-top: 18px;
+    }
+}
+@media (max-width: 992px) {
+    .services {
+        margin-top: 40px;
+    }
+    .footer {
+      
+        margin-top: 40px;
+    }
+    section.contact-us .right-info {
+        margin-top: 40px;
+    }
+    section.apply-now .item h3 {
+
+        font-size: 20px;
+ 
+    }
+}
+
+
+.fix-contact {
+    position: fixed;
+    bottom: 95px;
+    right: 24px;
+    z-index: 9;
+}
+
+.fix-contact-item.zalo {
+    background-image: url(../images/fix-zalo.svg);
+}
+
+.fix-contact-item {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+.fix-contact-item.call {
+        background-image: url(../images/fix-call.svg);
+   }
+
+.fix-contact-item {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
